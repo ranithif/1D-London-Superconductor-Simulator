@@ -12,7 +12,8 @@ Interactive 1D London Equation Simulator for B and J fields using Matplotlib and
 Clone this repository:
    ```bash
    git clone https://github.com/ranithif/1d-london-superconductor-simulator.git
-   cd 1d-london-superconductor-simulator```
+   cd 1d-london-superconductor-simulator
+```
 
 This project requires **Python 3.x** and the following libraries:
 * `numpy`
