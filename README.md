@@ -3,5 +3,9 @@ Interactive 1D London Equation Simulator for B and J fields using Matplotlib and
 ## Overview
 
 ## Equations
+* **Magnetic Field $B(x)$:**
+  $$B(x) = B_0 \frac{\cosh(x / \lambda_L)}{\cosh(d / 2\lambda_L)}$$
 
+* **Current Density $J(x)$:**
+  $$J(x) = -\frac{B_0}{\mu_0 \lambda_L} \frac{\sinh(x / \lambda_L)}{\cosh(d / 2\lambda_L)}$$
 ## How to Run
