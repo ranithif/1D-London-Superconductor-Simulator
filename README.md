@@ -1,7 +1,9 @@
 # 1D-London-Superconductor-Simulator
 Interactive 1D London Equation Simulator for B and J fields using Matplotlib and Python
 ## Overview
+Superconductors refuse to let magnetic fields exist inside their bulk, so they use electric currents flowing along their surface to cancel the external field out. These are called screening currents.
 
+Screening currents only flow near the surface of the superconductor and are trapped in a thin skin layer of thickness called the penetration depth $$\lamda_d$$
 ## Equations
 * **Magnetic Field $B(x)$:**
   $$B(x) = B_0 \frac{\cosh(x / \lambda_L)}{\cosh(d / 2\lambda_L)}$$
