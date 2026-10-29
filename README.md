@@ -1,9 +1,13 @@
 # Interactive 1D Superconductor Simulation
 Interactive 1D London Equation Simulator for B and J fields using Matplotlib and Python
 ## Overview
-Superconductors refuse to let magnetic fields exist inside their bulk, so they use electric currents flowing along their surface to cancel the external field out. These are called screening currents.
+This project uses the London equations to model how a magnetic field and the associated screening current vary inside a simple 1D superconducting slab.
 
-The left graph $B(x)$, shows how far the magnetic field manages to leak into the slab before it dies to zero and the right graph $J(x)$ shows the screening currents running along the surface of the material that push the penetrating field out.
+The model demonstrates the Meissner effect: when a superconductor is placed in an external magnetic field, the field does not remain uniform inside the material. Instead, it decreases exponentially over a characteristic distance called the London penetration depth.
+
+The left graph, (B(x)), shows the magnetic field decreasing as it penetrates into the superconductor. The right graph, (J(x)), shows the corresponding screening current density required to produce this change in magnetic field.
+
+The simulation allows the penetration depth to be varied interactively, making it possible to see how changing a material parameter affects the magnetic field and current distributions.
 
 <img width="1013" height="559" alt="Screenshot 2026-09-07 at 12 20 35" src="https://github.com/user-attachments/assets/79fa995c-49ed-40fb-b832-6d6e24115761" />
 
